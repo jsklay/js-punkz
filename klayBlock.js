@@ -61,7 +61,7 @@ async function check_status() {
     cntBlockNumber();
 }
 
-async function publicMint() {
+async function mintSyl() {
     if (klaytn.networkVersion === 8217) {
         console.log("메인넷");
     } else if (klaytn.networkVersion === 1001) {
