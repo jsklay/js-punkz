@@ -85,7 +85,7 @@ async function mintSyl() {
         alert("아직 민팅이 시작되지 않았습니다.");
         return;
     }
-    const total_value = BigNumber(amount * mintPrice);
+    const total_value = amount * mintPrice;
 
     let estmated_gas;
 
